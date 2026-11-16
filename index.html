@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>こもれび商店｜クラウド連携の管理分担</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body><header><div class="brand">こもれび商店 / 架空の社員15名・公開デモ</div><h1>クラウド連携の鍵、誰が判断し、誰が作業する？</h1><p>台帳の点検 → 分担の確認 → 人が対応順を決定 → 最初の1時間を記録</p><p class="warning">記録上の管理状況で、安全や漏えいの有無を確かめた結果ではない</p></header>
+<main><div class="toolbar"><label>表示する版<select id="version"><option value="initial">A 初版：業務担当だけの台帳（比較用）</option><option value="revised" selected>B 修正版：点検と鍵の分担を分ける</option><option value="teaching">教材：意図的に入れた誤りを照合する</option></select></label><p id="mode"></p></div><div id="metrics" class="metrics"></div>
+<nav aria-label="作業の切り替え"><button data-view="services">1 サービスの点検</button><button data-view="links">2 連携の分担</button><button data-view="priorities">3 人が決める対応順</button><button data-view="incident">4 最初の1時間</button><button data-view="exchange">入力・候補の読み込み</button><button data-view="export">5 確定・書き出し</button></nav><p id="message" role="status"></p><div id="content"></div></main>
+<footer>すべて架空の設定です。外部接続・鍵の操作・送信は行いません。入力と記録はこのタブ内だけに保持し、再読み込みで初期化します。鍵の値は入力しないでください。</footer></body></html>
